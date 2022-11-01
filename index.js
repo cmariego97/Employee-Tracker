@@ -12,6 +12,12 @@ const db = mysql.createConnection(
     }
 );
 
+//store initial choices
+const departments = ["Sales", "Engineering", "Finance", "Legal"];
+const roles = ["Sales Lead", "Salesperson", "Lead Engineer", "Software Engineer", "Account Engineer", "Accountant", "Legal Team Lead", "Lawyer"];
+const lastNames = ["Doe", "Fury", "Barnes", "Johnson", "Stark", "Potts", "Parker", "Odinson"];
+const managers = ["John", "Nicholas", "Steve", "Jack", "Tony", "Pepper", "Peter", "Tom"];
+
 // prompt + choices
 function init() {
     inquirer
