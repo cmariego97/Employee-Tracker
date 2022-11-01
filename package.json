@@ -1,7 +1,7 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "A CLI application that business owners may use to view and manage their company's departments and its employees.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/cmariego97/Employee-Tracker#readme",
   "dependencies": {
-    "inquirer": "^9.1.2"
+    "console.table": "^0.10.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3"
   }
 }
